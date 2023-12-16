@@ -30,9 +30,7 @@ export default {
 
 <style scoped>
 div{
-    width:50%;
-    height: 600px;
-    overflow-y: auto;
+    height: 500px;
 }
 li {
   background-color: rgb(186, 255, 250);
