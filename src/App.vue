@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <TodoList />
+    <div class="nav"><NavBar /></div>
+    <div class="todo"><TodoList /></div>
   </div>
 </template>
 
 <script>
-import TodoList from './components/TodoList.vue'
+import TodoList from "./components/TodoList.vue";
+import NavBar from "./components/NavBar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
+    NavBar,
     TodoList,
-  }
-}
+  },
+};
 </script>
 
 <style>
@@ -22,6 +25,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+.todo{
+  margin-top: 15px;
 }
 </style>
