@@ -1,5 +1,6 @@
 # vue_js_todo_app
 
+I make this app for exercise and learning vue.
 
 ## Project setup
 ```
