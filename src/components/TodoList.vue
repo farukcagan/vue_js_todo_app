@@ -31,9 +31,11 @@ export default {
 <style scoped>
 div{
     width:50%;
+    height: 600px;
+    overflow-y: auto;
 }
 li {
-  background-color: grey;
+  background-color: rgb(186, 255, 250);
   margin-top: 5px;
   padding: 20px;
 }

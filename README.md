@@ -1,4 +1,5 @@
-# vue_js_login_app
+# vue_js_todo_app
+
 
 ## Project setup
 ```
